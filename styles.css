@@ -16,7 +16,10 @@
 body {
   box-sizing: border-box;
   align-items: center;
-  background-image: url("https://img.freepik.com/premium-photo/cartoon-office-mentor-blue-background-with-copy-space_1077802-435578.jpg?w=1380");
+  background-image:url("https://img.freepik.com/premium-photo/cartoon-office-mentor-blue-background-with-copy-space_1077802-435578.jpg?w=1380");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
   font-family: var(--body-font);
 }
 
