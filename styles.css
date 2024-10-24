@@ -15,13 +15,16 @@
 
 body {
   box-sizing: border-box;
+  display: flex; /* Ensure flexbox is applied */
   align-items: center;
-  background-image:url("https://img.freepik.com/premium-photo/cartoon-office-mentor-blue-background-with-copy-space_1077802-435578.jpg?w=1380");
+  justify-content: center; /* Center content vertically and horizontally */
+  background-image: url('images/background.jpg'); /* Correct background-image */
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
-  font-family: var(--body-font);
+  font-family: var(--body-font); /* Make sure this variable is defined, or replace it with a specific font */
 }
+
 
 .main-container {
   position: relative;
